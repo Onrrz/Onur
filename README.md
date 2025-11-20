@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Onra Telekom</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f3f4f6;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    button {
+      background-color: #2563eb;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      padding: 15px 40px;
+      font-size: 1.25rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1e40af;
+    }
+  </style>
+</head>
+<body>
+  <h1>Onra Telekom</h1>
+  <p>Baz istasyonu ölçümleri, elektromanyetik alan analizleri ve profesyonel saha hizmetleri.</p>
+  <button onclick="alert('İletişim formu yakında eklenecek!')">Hizmetlerimiz</button>
+</body>
+</html>
